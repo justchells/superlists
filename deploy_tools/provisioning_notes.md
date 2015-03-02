@@ -1,7 +1,7 @@
 Provisioning a new site
 =======================
 
-## Required packages
+## Required packages:
 
 * nginx
 * Python 3
@@ -28,10 +28,10 @@ eg, on Ubuntu:
 Assume we have a user account at /home/username
 
 /home/username
- sites
-     SITENAME
-          database
-          source
-          static
-          virtualenv
+└── sites
+    └── SITENAME
+         ├── database
+         ├── source
+         ├── static
+         └── virtualenv
 
